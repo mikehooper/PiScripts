@@ -22,6 +22,7 @@ sudo apt install -y libxcb-randr0-dev libxrandr-dev \
 
 echo 4/10 Install meson
 pip3 install meson
+echo $PATH | grep $HOME/.local/bin || export PATH=$HOME/.local/bin:$PATH
 
 echo 5/10 Install mako
 pip3 install mako
