@@ -7,7 +7,7 @@ echo 2/10 Upgrade
 sudo apt full-upgrade -y
 
 echo 3/10 Install pre-requisites
-sudo apt install libxcb-randr0-dev libxrandr-dev \
+sudo apt install -y libxcb-randr0-dev libxrandr-dev \
         libxcb-xinerama0-dev libxinerama-dev libxcursor-dev \
         libxcb-cursor-dev libxkbcommon-dev xutils-dev \
         xutils-dev libpthread-stubs0-dev libpciaccess-dev \
